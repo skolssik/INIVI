@@ -288,7 +288,7 @@ body {
 @media only screen and (max-width: 500px) {
   .about-container .about-content h2 {
     font-size: 32px;
-    width: 400px;
+    width: 250px;
   }
 }
 @media only screen and (max-width: 350px) {
