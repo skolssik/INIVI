@@ -145,6 +145,11 @@ body {
           user-select: none;
   color: #e79f47;
 }
+@media only screen and (max-width: 1100px) {
+  .text {
+    bottom: 50vh;
+  }
+}
 @media only screen and (max-width: 450px) {
   .text {
     bottom: 30vh;
@@ -204,6 +209,11 @@ body {
   padding-left: 40px;
   text-align: center;
 }
+@media only screen and (max-width: 550px) {
+  .about-container {
+    padding-left: 0;
+  }
+}
 @media only screen and (max-width: 495px) {
   .about-container {
     padding: 0;
@@ -255,6 +265,11 @@ body {
     width: 600px;
   }
 }
+@media only screen and (max-width: 550px) {
+  .about-container p {
+    width: 500px;
+  }
+}
 @media only screen and (max-width: 530px) {
   .about-container p {
     width: 450px;
@@ -298,6 +313,11 @@ body {
     width: 600px;
   }
 }
+@media only screen and (max-width: 550px) {
+  .about-container .about-content h2 {
+    width: 500px;
+  }
+}
 @media only screen and (max-width: 530px) {
   .about-container .about-content h2 {
     width: 450px;
@@ -306,7 +326,7 @@ body {
 @media only screen and (max-width: 500px) {
   .about-container .about-content h2 {
     font-size: 32px;
-    width: 250px;
+    width: 350px;
   }
 }
 @media only screen and (max-width: 390px) {
