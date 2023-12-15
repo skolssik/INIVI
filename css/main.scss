@@ -147,6 +147,8 @@ body{
 		rgba(255, 255, 255, 0.25) 95%,
 		rgba(255, 255, 255, 0) 100%
 	);
+  @media only screen and (max-width: 490px){bottom: 70px;}
+  @media only screen and (max-width: 390px){bottom: 0;}
 }
 
 .text {
@@ -159,7 +161,7 @@ body{
 	transform: translateX(-50%);
 	user-select: none;
   color:#e79f47;
-
+  @media only screen and (max-width: 495px){bottom: 30vh;}
 .wrapper {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -244,6 +246,7 @@ h2{
   @media only screen and (max-width: 765px){width: 600px;}
   @media only screen and (max-width: 530px){width: 450px;}
   @media only screen and (max-width: 500px){font-size: 32px; width: 250px;}
+  @media only screen and (max-width: 390px){font-size: 32px; width: 335px;}
   @media only screen and (max-width: 350px){font-size: 20px;width: 250px;}
     }
   }
@@ -281,6 +284,7 @@ h2{
   overflow: hidden;
   position: relative;
   @media only screen and (max-width: 900px){width: 400px;}
+  @media only screen and (max-width: 490px){width: 200px;}
 }
 
 .slide-container {

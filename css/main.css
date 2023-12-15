@@ -141,6 +141,16 @@ body {
   background: #F7F7F7;
   background: linear-gradient(0deg, #F7F7F7 75%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 0.25) 95%, rgba(255, 255, 255, 0) 100%);
 }
+@media only screen and (max-width: 490px) {
+  .overlay {
+    bottom: 70px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .overlay {
+    bottom: 0;
+  }
+}
 
 .text {
   font-family: "Yanone Kaffeesatz";
@@ -154,6 +164,11 @@ body {
      -moz-user-select: none;
           user-select: none;
   color: #e79f47;
+}
+@media only screen and (max-width: 495px) {
+  .text {
+    bottom: 30vh;
+  }
 }
 .text .wrapper {
   padding-left: 20px;
@@ -291,6 +306,12 @@ body {
     width: 250px;
   }
 }
+@media only screen and (max-width: 390px) {
+  .about-container .about-content h2 {
+    font-size: 32px;
+    width: 335px;
+  }
+}
 @media only screen and (max-width: 350px) {
   .about-container .about-content h2 {
     font-size: 20px;
@@ -334,6 +355,11 @@ body {
 @media only screen and (max-width: 900px) {
   .slider {
     width: 400px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .slider {
+    width: 200px;
   }
 }
 
