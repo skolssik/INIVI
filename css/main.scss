@@ -377,7 +377,7 @@ p{
   padding-left: 20px;
   margin-bottom: 80px;
   height: 310px;
-  @media only screen and (max-width: 1300px){width: 250px; height: 250px;}
+  @media only screen and (max-width: 850px){width: 300px; height: 310px;}
   @media only screen and (max-width: 600px){width: 200px; height: 230px;}
 img{
   margin-top: 20px;
@@ -418,7 +418,7 @@ p{
   padding-left: 20px;
   margin-bottom: 80px;
   height: 310px;
-  @media only screen and (max-width: 1300px){width: 250px; height: 250px;}
+  @media only screen and (max-width: 850px){width: 300px; height: 310px;}
   @media only screen and (max-width: 600px){width: 200px; height: 230px;}
 img{
   margin-top: 20px;
@@ -459,9 +459,8 @@ h5{
   margin-bottom: 20px;
   width: 500px;
   text-align: center;
-  @media only screen and (max-width: 450px){font-size: 42px;width: 400px;}
-  @media only screen and (max-width: 410px){width: 300px;}
-
+@media only screen and (max-width: 450px){font-size: 42px;width: 400px;}
+@media only screen and (max-width: 410px){width: 300px;}
   }
 p{
   color: #B25068;
