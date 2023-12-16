@@ -185,7 +185,7 @@ body{
 		rgba(255, 255, 255, 0) 100%
 	);
   @media only screen and (max-width: 490px){bottom: 70px;}
-  @media only screen and (max-width: 400px){bottom: 0;}
+  @media only screen and (max-width: 400px){height: 30vh;}
 }
 .about-container{
   display: flex;

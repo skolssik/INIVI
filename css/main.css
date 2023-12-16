@@ -199,7 +199,7 @@ body {
 }
 @media only screen and (max-width: 400px) {
   .overlay {
-    bottom: 0;
+    height: 30vh;
   }
 }
 
