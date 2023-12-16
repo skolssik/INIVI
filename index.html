@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,7 +13,7 @@
   <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
 </head>
 <body>
-  <section class="first-container">
+  <section id="home" class="first-container">
   <div class="menu-icon">
     <div class="menu-icon-line"></div>
     <div class="menu-icon-line"></div>
@@ -20,13 +21,13 @@
   </div>
   <div class="mobile-menu">
     <ul>
-      <li><a href="#">Главная</a></li>
-      <li><a href="#">О Компании</a></li>
-      <li><a href="#">Логистика</a></li>
-      <li><a href="#">Контакты</a></li>
+      <li><a href="#home">Главная</a></li>
+      <li><a href="#compain">О Компании</a></li>
+      <li><a href="#logistic">Логистика</a></li>
+      <li><a href="#contact">Контакты</a></li>
     </ul>
   </div>
-  <!-- #CodePenChallenge: Lightness -->
+<div class="btn-up btn-up_hide"></div>
 <div class="text">
 	<div class="wrapper">
 		<div id="L" class="letter">I</div>
@@ -53,7 +54,7 @@
 </section>
 <section class="about-container">
 <div class="about-content">
-  <h2 class="wow animate__bounceInRight">Иниви - надежный партнер, обеспечивающий оптовую поставку смартфонов, 
+  <h2 id="compain" class="wow animate__bounceInRight">Иниви - надежный партнер, обеспечивающий оптовую поставку смартфонов, 
     цифровых девайсов, портативной техники и аксессуаров на рынках РФ и СНГ.</h2>
   <p>Основное направление деятельности нашей фирмы оптовая продажа  и доставка продукции. 
     Только проверенные ресурсы, удобные методы оплаты, оригинальные устройства.
@@ -125,7 +126,7 @@
   </div>
 </div>
 </section>
-<section class="logist">
+<section id="logistic" class="logist">
 <h4>Логистика</h4>
 <h5 class=" wow animate__zoomInDown">Provide uninterrupted deliveries</h5>
 <img src="images/plane.png" alt="plane" width="700px">
@@ -156,25 +157,35 @@
     <div class="carousel-dots"></div>
   </div>  
 </section>
-<section class="form-container">
+<section id="contact" class="form-container">
   <div class="form-content">
     <h3>Контакты</h3>
     
   </div>
   <div class="form">
     <form action="#" id="form" class="form_body">
+
+
+
+      <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+
+
+
+
       <h2 class="form_title">Форма обратной связи</h2>
       <div class="form_item">
-        <label for="formName" class="form_label">Имя*</label>
-        <input id="formName" type="text" name="name" class="form_input _req">
+        <input class="form_input _req" type="text" name="Name" placeholder="Имя*" required><br>
       </div>
       <div class="form_item">
-        <label for="formEmail" class="form_label _req _email">E-mail*</label>
-        <input id="formEmail" type="text" name="email" class="form_input _req">
+        <input type="text" class="form_input _req" name="E-mail" placeholder="E-mail*" required><br>
       </div>
       <div class="form_item">
-        <label for="formMessage" class="form_label">Сообщение:</label>
-        <textarea name="message" id="formMessage" class="form_input"></textarea>
+        <label for="formMessage" class="form_label" placeholder="E-mail" required></label>
+        <textarea name="message" id="formMessage" class="form_input" placeholder="Сообщение:" required></textarea>
       </div>
       <button type="submit" class="form_button">Отправить</button>
     </form>
@@ -187,6 +198,7 @@
   </div>
 </section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/script.js"></script>

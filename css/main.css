@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Reset CSS*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -84,6 +85,7 @@ body {
   cursor: pointer;
   padding: 5px;
   z-index: 1;
+  position: absolute;
 }
 
 .menu-icon-line {
@@ -887,13 +889,41 @@ body {
   border: none;
 }
 .form-container .form input {
-  background: rgba(48, 1, 59, 0.4);
+  border: none;
+  font-family: "Yanone Kaffeesatz";
+  background: rgba(48, 1, 59, 0.2);
+  color: #FFF;
+}
+.form-container .form input::-moz-placeholder {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.form-container .form input::placeholder {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.form-container .form input::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgba(244, 246, 252, 0.5);
 }
 .form-container .form textarea.form_input {
+  font-family: "Yanone Kaffeesatz";
   min-height: 120px;
   resize: vertical;
+  border: none;
   padding: 20px;
-  background: rgba(48, 1, 59, 0.4);
+  color: #FFF;
+  background: rgba(48, 1, 59, 0.2);
+}
+.form-container .form textarea.form_input::-moz-placeholder {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.form-container .form textarea.form_input::placeholder {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.form-container .form textarea.form_input::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgba(244, 246, 252, 0.5);
 }
 .form-container .form .form_button {
   display: flex;
@@ -939,4 +969,39 @@ body {
 }
 .form-container .form .form_input .form_input._error {
   box-shadow: 0 0 15px red;
+}
+
+.btn-up {
+  /* фиксированное позиционирование */
+  position: fixed;
+  background-color: #E7AB79;
+  right: 20px;
+  bottom: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 50px;
+}
+
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+}
+
+.btn-up_hide {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn-up:hover {
+    background-color: #daa127; /* цвет заднего фона при наведении */
+  }
 }/*# sourceMappingURL=main.css.map */
