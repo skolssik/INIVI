@@ -116,9 +116,9 @@ body{
 }
 
 .mobile-menu ul li a {
-  font-family: "Comfortaa";
+  font-family: "Fira Sans Condensed";;
   display: block;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px;
   text-decoration: none;
   color: black;
@@ -197,7 +197,7 @@ body{
 @media only screen and (max-width: 550px){padding-left: 0;}
 @media only screen and (max-width: 495px){padding: 0;}
 h3{
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   font-size: 32px;
   padding-bottom: 50px;
   @media only screen and (max-width: 530px){font-size: 22px;}
@@ -208,7 +208,7 @@ h3{
   }
 h4{
   margin-top: 10px;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   border: solid 1px #E58411;
     
   font-size: 32px;
@@ -216,15 +216,14 @@ h4{
   width: 500px;
   }
 p{
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   font-size: 52px;
   color: #333;
-  font-weight: 400;
   width: 900px;
   margin-top: 50px;
   @media only screen and (max-width: 900px){font-size: 42px; width: 700px;}
   @media only screen and (max-width: 765px){width: 600px;}
-  @media only screen and (max-width: 550px){width: 500px;}
+  @media only screen and (max-width: 600px){width: 500px;}
   @media only screen and (max-width: 530px){width: 450px;}
   @media only screen and (max-width: 495px){font-size: 25px; width: 350px;}
   @media only screen and (max-width: 350px){font-size: 20px;width: 250px;}
@@ -236,15 +235,15 @@ p{
   text-align: center;
   margin-bottom: 50px;
 h2{
-  font-family: "Yanone Kaffeesatz";
-  font-weight: 700;
+  font-family: "Fira Sans Condensed";
+  font-weight: bold;
   font-size: 52px;
   margin-bottom: 50px;
   color:#e79f47;
   width: 930px;
   @media only screen and (max-width: 900px){font-size: 42px; width: 700px;}
   @media only screen and (max-width: 765px){width: 600px;}
-  @media only screen and (max-width: 550px){width: 500px;}
+  @media only screen and (max-width: 600px){width: 500px;}
   @media only screen and (max-width: 530px){width: 450px;}
   @media only screen and (max-width: 500px){font-size: 32px; width: 350px;}
   @media only screen and (max-width: 390px){font-size: 32px; width: 335px;}
@@ -326,7 +325,7 @@ h2{
   display: flex;
   justify-content: space-around;
   padding-top: 230px;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
 @media only screen and (max-width: 1100px){align-items: center; flex-direction: column;}
 @media only screen and (max-width: 1024px){width: 90%; flex-wrap: wrap;}
 @media only screen and (max-width: 890px){flex-direction: column; align-items: center;}
@@ -377,9 +376,9 @@ p{
   width: 300px;
   padding-left: 20px;
   margin-bottom: 80px;
-  height: 300px;
+  height: 310px;
   @media only screen and (max-width: 1300px){width: 250px; height: 250px;}
-  @media only screen and (max-width: 600px){width: 200px; height: 200px;}
+  @media only screen and (max-width: 600px){width: 200px; height: 230px;}
 img{
   margin-top: 20px;
   border-radius: 20px;
@@ -418,9 +417,9 @@ p{
   width: 300px;
   padding-left: 20px;
   margin-bottom: 80px;
-  height: 300px;
+  height: 310px;
   @media only screen and (max-width: 1300px){width: 250px; height: 250px;}
-  @media only screen and (max-width: 600px){width: 200px; height: 200px;}
+  @media only screen and (max-width: 600px){width: 200px; height: 230px;}
 img{
   margin-top: 20px;
   border-radius: 20px;
@@ -452,19 +451,13 @@ p{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   border-radius: 50px 50px 0 0;
-h4{
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: $black-text;
-  }
 h5{
   color: $black-text;
   font-size: 52px;
   margin-bottom: 20px;
-  width: 400px;
+  width: 500px;
   text-align: center;
   @media only screen and (max-width: 410px){font-size: 42px;width: 300px;}
 
@@ -473,9 +466,9 @@ p{
   color: #B25068;
   width: 700px;
   text-align: center;
-  font-size: 22px;
+  font-size: 32px;
   margin-bottom: 120px;
-  font-weight: 700;
+  font-weight: bold;
 @media only screen and (max-width: 700px){width: 500px;}
 @media only screen and (max-width: 700px){width: 400px;}
 @media only screen and (max-width: 410px){width: 300px;}
@@ -532,7 +525,7 @@ img{
   url(../images/bg-voronezh.jpg);
   background-position: center;
   background-size: cover;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   .form-content{
     display: flex;
     flex-direction: column;
@@ -564,6 +557,7 @@ img{
     margin-bottom: 20px;
     font-size: 42px;
     color: #e79f47;
+    text-align: center;
   @media only screen and (max-width: 350px){font-size: 25px;}
   }
   span{
@@ -584,7 +578,7 @@ img{
   }
   input{
     border: none;
-    font-family: "Yanone Kaffeesatz";
+    font-family: "Fira Sans Condensed";
     background: rgba(48, 1, 59, 0.2);
     color: #FFF;
   }
@@ -596,7 +590,7 @@ input::placeholder {
 input::-ms-input-placeholder { /* Edge 12 -18 */
     color: rgba(244, 246, 252, 0.5);}
   textarea.form_input{
-    font-family: "Yanone Kaffeesatz";
+    font-family: "Fira Sans Condensed";
     min-height: 120px;
     resize: vertical;
     border: none;
@@ -680,6 +674,29 @@ input::-ms-input-placeholder { /* Edge 12 -18 */
 
 @media (hover: hover) and (pointer: fine) {
   .btn-up:hover {
-    background-color: #daa127; /* цвет заднего фона при наведении */
+    background-color: #daa127; 
   }
+}
+footer{
+  margin-top: 50px;
+.text-footer{
+  font-family: "Yanone Kaffeesatz";
+	font-size: 100px;
+	display: flex;
+	user-select: none;
+  color:#e79f47;
+  justify-content: center;
+  .wrapper-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+}
+p{
+  font-family: "Fira Sans Condensed";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
 }

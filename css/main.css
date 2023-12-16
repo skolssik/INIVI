@@ -116,9 +116,9 @@ body {
 }
 
 .mobile-menu ul li a {
-  font-family: "Comfortaa";
+  font-family: "Fira Sans Condensed";
   display: block;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px;
   text-decoration: none;
   color: black;
@@ -222,7 +222,7 @@ body {
   }
 }
 .about-container h3 {
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   font-size: 32px;
   padding-bottom: 50px;
 }
@@ -242,17 +242,16 @@ body {
 }
 .about-container h4 {
   margin-top: 10px;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   border: solid 1px #E58411;
   font-size: 32px;
   color: #e79f47;
   width: 500px;
 }
 .about-container p {
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   font-size: 52px;
   color: #333;
-  font-weight: 400;
   width: 900px;
   margin-top: 50px;
 }
@@ -267,7 +266,7 @@ body {
     width: 600px;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .about-container p {
     width: 500px;
   }
@@ -297,8 +296,8 @@ body {
   margin-bottom: 50px;
 }
 .about-container .about-content h2 {
-  font-family: "Yanone Kaffeesatz";
-  font-weight: 700;
+  font-family: "Fira Sans Condensed";
+  font-weight: bold;
   font-size: 52px;
   margin-bottom: 50px;
   color: #e79f47;
@@ -315,7 +314,7 @@ body {
     width: 600px;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .about-container .about-content h2 {
     width: 500px;
   }
@@ -432,7 +431,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 230px;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
 }
 @media only screen and (max-width: 1100px) {
   .content {
@@ -568,7 +567,7 @@ body {
   width: 300px;
   padding-left: 20px;
   margin-bottom: 80px;
-  height: 300px;
+  height: 310px;
 }
 @media only screen and (max-width: 1300px) {
   .content .right-content .first-item {
@@ -579,7 +578,7 @@ body {
 @media only screen and (max-width: 600px) {
   .content .right-content .first-item {
     width: 200px;
-    height: 200px;
+    height: 230px;
   }
 }
 .content .right-content .first-item img {
@@ -648,7 +647,7 @@ body {
   width: 300px;
   padding-left: 20px;
   margin-bottom: 80px;
-  height: 300px;
+  height: 310px;
 }
 @media only screen and (max-width: 1300px) {
   .content .right-last .right {
@@ -659,7 +658,7 @@ body {
 @media only screen and (max-width: 600px) {
   .content .right-last .right {
     width: 200px;
-    height: 200px;
+    height: 230px;
   }
 }
 .content .right-last .right img {
@@ -704,20 +703,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   border-radius: 50px 50px 0 0;
-}
-.logist h4 {
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #1D2733;
 }
 .logist h5 {
   color: #1D2733;
   font-size: 52px;
   margin-bottom: 20px;
-  width: 400px;
+  width: 500px;
   text-align: center;
 }
 @media only screen and (max-width: 410px) {
@@ -730,9 +723,9 @@ body {
   color: #B25068;
   width: 700px;
   text-align: center;
-  font-size: 22px;
+  font-size: 32px;
   margin-bottom: 120px;
-  font-weight: 700;
+  font-weight: bold;
 }
 @media only screen and (max-width: 700px) {
   .logist p {
@@ -811,7 +804,7 @@ body {
   background: linear-gradient(to top, rgba(48, 1, 59, 0.8), rgba(199, 126, 16, 0.3)), url(../images/bg-voronezh.jpg);
   background-position: center;
   background-size: cover;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
 }
 .form-container .form-content {
   display: flex;
@@ -862,6 +855,7 @@ body {
   margin-bottom: 20px;
   font-size: 42px;
   color: #e79f47;
+  text-align: center;
 }
 @media only screen and (max-width: 350px) {
   .form-container .form h2 {
@@ -890,7 +884,7 @@ body {
 }
 .form-container .form input {
   border: none;
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   background: rgba(48, 1, 59, 0.2);
   color: #FFF;
 }
@@ -906,7 +900,7 @@ body {
   color: rgba(244, 246, 252, 0.5);
 }
 .form-container .form textarea.form_input {
-  font-family: "Yanone Kaffeesatz";
+  font-family: "Fira Sans Condensed";
   min-height: 120px;
   resize: vertical;
   border: none;
@@ -1002,6 +996,31 @@ body {
 
 @media (hover: hover) and (pointer: fine) {
   .btn-up:hover {
-    background-color: #daa127; /* цвет заднего фона при наведении */
+    background-color: #daa127;
   }
+}
+footer {
+  margin-top: 50px;
+}
+footer .text-footer {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 100px;
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  color: #e79f47;
+  justify-content: center;
+}
+footer .text-footer .wrapper-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+footer p {
+  font-family: "Fira Sans Condensed";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
