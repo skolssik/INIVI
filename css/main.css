@@ -713,9 +713,14 @@ body {
   width: 500px;
   text-align: center;
 }
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 450px) {
   .logist h5 {
     font-size: 42px;
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .logist h5 {
     width: 300px;
   }
 }
